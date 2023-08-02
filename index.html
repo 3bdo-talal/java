@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css icons/all.min/all.min.css">
+    <link rel="stylesheet" href="css bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="bookMark text-center">
+            <div id="orang"></div>
+            <h1 style="font-family: cursive;">Bookmarker</h1>
+        </div>
+        <p>..............................................................................................................................................................................................................................................................................................................................................................................................
+        </p>
+        <div class="w-100  text-center p-5">
+
+            <h3 id="mm"><span><i class="fa-solid fa-bookmark"></i>
+                </span>Bookmark your favorite sites <span><i class="fa-solid fa-bookmark"></i></span></h3>
+        </div>
+
+        <label for="siteName" class="fs-6 fw-bolder"><i class="fa-solid fa-book-bookmark pe-2 py-2 "></i> Site Name</label>
+        <input type="text" placeholder="Bookmark Name" class="form-control w-100 m-auto my-2" id="siteName">
+        <label for="siteUrl"  class="fs-6 fw-bolder"><i class="fa-solid fa-link pe-2 py-2"></i> Site Url</label>
+        <input type="text" placeholder="Website URL" class="form-control w-100 m-auto my-2" id="siteUrl">
+        <div id="submit" class="text-center">
+            <button onclick="addsite()" type="button"
+                class="btn btn-danger  my-4 border-0 rounded-2  m-auto fs-5 w-25">submit</button>
+        </div>
+        <p>..............................................................................................................................................................................................................................................................................................................................................................................................
+        </p>
+    </div>
+
+
+    <div class="container m-auto">
+        <table class=" table text-center bg-white">
+            <thead>
+                <tr>
+                    <th id="Index">Index</th>
+                    <th id="Name">Website Name</th>
+                    <th id="Visit">Visit</th>
+                    <th id="Delete">Delete</th>
+
+                </tr>
+            </thead>
+            <tbody id="demo" class="text-center">
+                <tr>
+                    <td><a href=""><button class=" btn btn-primary">visit</button> </a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

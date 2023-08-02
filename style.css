@@ -1,0 +1,20 @@
+body{
+    background-color:  #F7ECDE;;
+}
+h3{
+color: linear-gradient(rgba(yellow),(green));
+}
+#orang{
+    width: 15%;
+    height: 20px;
+    background-color: rgba(255, 166, 0, 0.619);
+    position: absolute;
+    top: 7%;
+    left:42.5%;
+    transition: all 1s;
+}
+
+#orang:hover{
+    transform: scale(.5s);
+    padding-top : 37px;
+}
